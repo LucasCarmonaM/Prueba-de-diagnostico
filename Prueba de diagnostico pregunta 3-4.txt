@@ -1,0 +1,15 @@
+Pregunta 3 Prueba de diagnostico:
+
+¿En que consiste la exclusion mutua?
+
+Consiste en reservar temporalmente un recurso compartido para un solo proceso 
+de manera que entre solo un proceso en una seccion critica y se garantice la 
+integridad del sistema.
+
+Pregunta 4 Prueba de diagnostico:
+
+¿Que es un sockets?
+
+Es un metodo de comunicacion entre un cliente y un servidor, esto se logra con 
+una direccion ip y un puerto, que permiten la conceccion entre ambos, debido a
+que es necesario que un programa conozca la ubicacion del otro.

@@ -1,0 +1,7 @@
+/* Query pregunta 2 base de datos */
+
+SELECT courses.name,courses.start_date.evaluation.AVG(score),evaluations.STDEV(score),evaluations.MIN(score),evaluations.MAX(score)
+FROM courses,exams,evaluations
+WHERE evaluations.exam_fk=exams.pk and exams.course_fk=courses.pk
+GROUP BY courses.name,courses.start_date;
+
