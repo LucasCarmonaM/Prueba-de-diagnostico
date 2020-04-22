@@ -35,7 +35,7 @@ void devContLetr(string palabra){
     if(continua == true){
         for(i=0;i<palabra.length();i++){
 	   
-            //si el ciclo va en la segunda letra y ademas es igual a la anterior se suma 1 a la cantidad de veces que se repite
+            //si el ciclo va en la segunda letra o mas, y ademas es igual a la anterior se suma 1 a la cantidad de veces que se repite
             if((i!=0) && (palabra[i] == palabra[i-1])){
                 cantidad += 1;
             }
